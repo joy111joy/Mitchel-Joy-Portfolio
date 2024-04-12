@@ -1,0 +1,422 @@
+html {
+    background-color: #191919;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+
+
+header {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+}
+nav {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Julius Sans One;
+    text-align: center;
+}
+#Title {
+    font-size: 25pt;
+}
+#navLink {
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
+    #Itch {
+        display: none;
+    }
+    #navLink {
+        font-size: 10pt;
+    }
+    
+}
+
+
+
+
+
+#MJ h1 {
+    font-size: 100pt;
+    color: white;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+}
+#Career {
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+    font-family: Julius Sans One;
+    font-weight: 100;
+    margin-top: -110px;
+    
+}
+#Socials {
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    #Socials {
+        width: 300px;
+    }
+    
+}
+
+
+.material-symbols-outlined {
+  font-size: 50px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+
+
+
+.view {
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Julius Sans One;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#projectsdisp {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#shortpics {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+#RisingTide {
+    margin-top: 10px;
+    width: 370px;
+}
+#SmartSole {
+    width: 100%;
+    height: 335px;
+}
+
+#GaryBlues {
+    width: 370px;
+    height: 600px;
+}
+#PFWNL {
+    width: 370px;
+    height: 600px;
+}
+
+@media screen  and (max-width: 1164px) {
+    #projectsdisp {
+        justify-content: space-around;
+        margin: 50 auto;
+
+        max-width: 800px;
+
+    }
+    #shortpics {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 335px;
+        width: 800px;
+    }
+    #RisingTide {
+        width: 350px;
+    }
+    #SmartSole {
+        margin-top: 20px;
+        width: 350px;
+    }
+    
+    #GaryBlues {
+        width: 350px;
+    }
+    #PFWNL {
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    #RisingTide {
+        display: none;
+    }
+    #SmartSole {
+        width: 300px;
+    }
+    
+    #GaryBlues {
+        display: none;
+    }
+    #PFWNL {
+        width: 300px;
+        height: 400px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+#AboutMe {
+    margin-top: 100px;
+}
+
+
+#AboutCont {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+#AboutMe h2 {
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+}
+#AboutMe p {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    font-family: Julius Sans One;
+    font-weight: 100;
+    margin-top: 100px;
+    width: 40%;
+}
+#AboutMe img {
+    width: 300px;
+    margin-top: -30px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 800px) {
+    #AboutCont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+    }
+    #AboutMe img {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #AboutMe p {
+        width: 80%;
+        
+    }
+    
+}
+
+
+
+
+
+
+#Responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Phone {
+    transition: transform 2s;
+    height: 300px;
+    width: 150px;
+}
+#PhoneBox {
+    display: flex;
+    justify-content: center;
+}
+#ResponsiveTxt {
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+
+}
+#BTN1 {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Julius Sans One;
+    text-decoration: none;
+}
+#BTN1 h2 {
+    font-size: 20pt;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #Responsive {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Phone {
+        margin-top: 50px;
+    }
+    #PhoneBox {
+        margin-top: -50px;
+    }
+    #BTN1 {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #Laptop {
+        display: none;
+    }
+    
+}
+
+#WorkWithYou h2 {
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 100;
+    margin-top: 100px;
+}
+#WorkWithYou p {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    font-family: Julius Sans One;
+    font-weight: 100;
+    margin-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+#BotContact {
+    color: black;
+    font-family: Julius Sans One;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 200px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Julius Sans One;
+    font-size: 15pt;
+    text-align: center;
+    background-color: #191919;
+}
+#FooterLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 100px;
+
+}
+#FooterRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 100px;
+
+}
+footer a {
+    font-size: 20pt;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #FooterLeft {
+        margin-left: 0;
+    }
+    #FooterRight {
+        margin-right: 0;
+    }
+}
+#Socials a{
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+}
